@@ -1,0 +1,55 @@
+body {
+	background-color: blue;
+	text-align: center;
+	font-family: "Georgia", serif;
+	color: purple;
+	margin: 0px;
+}
+
+#wrapper {
+	width: 75%;
+	background-color: black;
+	border: 2px, solid;
+	border-radius: 3em;
+	margin-right: 12%;
+	margin-left: 12%;
+	margin-top: 0px;
+}
+h1 {
+	font-size: 2em;
+	margin-top: 0px;
+	padding-top: 1em;
+}
+h1:hover {
+	font-size: 2.25em;
+}
+h1::-moz-selection {
+	color: #e20909;
+	background-color: blue;
+}
+h1::selection {
+	color: #e20909;
+	background-color: blue;
+}
+
+
+p {
+	font-size: 1.375em;
+	padding: 0.5em 5em;
+	text-align: justify;
+}
+p::first-letter {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+p:hover {
+	font-weight: bold;
+}
+p::-moz-selection {
+	color: #e20909;
+	background-color: blue;
+}
+p::selection {
+	color: #e20909;
+	background-color: blue;
+}
